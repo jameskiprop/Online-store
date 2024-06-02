@@ -65,12 +65,12 @@ nav ul li a:hover {
 }
 
 .heading {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
 .paragraph {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5;
 }
 
@@ -184,25 +184,49 @@ footer {
 
   .card {
     width: calc(100% - 20px);
-    margin: 10px auto;
+    margin: 4px auto;
   }
 }
 
 @media (max-width: 480px) {
   .heading {
     font-size: 2em;
+    position: relative;
+  }
+
+  .h1 {
+    font-size: 1.5em;
   }
 
   .paragraph {
+    position: relative;
     font-size: 1em;
+  }
+  .navigation-bar {
+    padding: 5px;
+    width: 400px;
   }
 
   .navigation-bar ul {
     flex-direction: column;
+    width: 80%;
   }
 
   .navigation-bar ul li {
-    margin: 10px 0;
+    margin-right: 100px 0;
+  }
+
+  .navigation-bar u li a {
+    font-size: 1em;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .background-image {
+    width: 390px;
+    height: 340px;
   }
 
   .card-container {
@@ -211,7 +235,7 @@ footer {
   }
 
   .card {
-    width: 100%;
-    margin: 10px 0;
+    width: 80%;
+    margin: 5px 0;
   }
 }
